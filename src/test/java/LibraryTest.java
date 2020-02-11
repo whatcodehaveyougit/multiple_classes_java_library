@@ -33,4 +33,11 @@ public class LibraryTest {
         library.addBook(book);
         assertEquals(3, library.stockCount());
     }
+
+    @Test
+    public void book_leaves_library() {
+        library.addBook(book);
+        library.bookLeavesLibrary();
+        assertEquals(0, library.stockCount());
+    }
 }

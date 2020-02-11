@@ -29,4 +29,8 @@ public class Library {
             this.stock.add(book);
         }
     }
+
+    public Book bookLeavesLibrary() {
+        return this.stock.remove(0);
+    }
 }

@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d193ab4-a5c7-449e-ace5-56ee456464fc" name="Default Changelist" comment="" />
+    <list default="true" id="0d193ab4-a5c7-449e-ace5-56ee456464fc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Borrower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BorrowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LibraryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +33,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XfYbqqoxkNpHoqVxBXkAhtz5K4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,9 +41,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest">
+  <component name="RunManager" selected="JUnit.BorrowerTest">
     <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="homework-library" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,6 +60,15 @@
       <option name="MAIN_CLASS_NAME" value="BookTest" />
       <option name="METHOD_NAME" value="book_has_title" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BorrowerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="homework-library" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BorrowerTest" />
         <item itemvalue="JUnit.LibraryTest" />
         <item itemvalue="JUnit.LibraryTest.add_book_to_library" />
         <item itemvalue="JUnit.BookTest" />
@@ -94,22 +116,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1581441883200">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom" timestamp="1581444979832">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1581441883200" />
-    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1581441883199">
+    <state width="1398" height="208" key="GridCell.Tab.0.bottom/0.23.1440.810@0.23.1440.810" timestamp="1581444979832" />
+    <state width="1398" height="208" key="GridCell.Tab.0.center" timestamp="1581444979830">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1581441883199" />
-    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1581441883198">
+    <state width="1398" height="208" key="GridCell.Tab.0.center/0.23.1440.810@0.23.1440.810" timestamp="1581444979830" />
+    <state width="1398" height="208" key="GridCell.Tab.0.left" timestamp="1581444979829">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1581441883198" />
-    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1581441883200">
+    <state width="1398" height="208" key="GridCell.Tab.0.left/0.23.1440.810@0.23.1440.810" timestamp="1581444979829" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right" timestamp="1581444979831">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
-    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1581441883200" />
+    <state width="1398" height="208" key="GridCell.Tab.0.right/0.23.1440.810@0.23.1440.810" timestamp="1581444979831" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
