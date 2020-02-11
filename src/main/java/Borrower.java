@@ -14,12 +14,18 @@ public class Borrower {
         return  this.borrowLimit;
     }
 
-    public Object countBooksBorrowed() {
+    public int countBooksBorrowed() {
         return this.borrowedItems.size();
     }
 
-    public void takesBookFromLibrary(Book rentedBook) {
-        this.borrowedItems.add(rentedBook);
+    public void borrowBook(Book book) {
+        this.borrowedItems.add(book);
+    }
+
+    public void borrowerTakesBookFromLibrary(Library library) {
+        if(this.countBooksBorrowed() < this.borrowLimit && library.stockCount() > 0) {
+            this.borrowedItems.add(library.bookLeavesLibrary());
+        }
     }
 
 

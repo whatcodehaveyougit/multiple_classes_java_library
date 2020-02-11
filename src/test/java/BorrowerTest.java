@@ -27,10 +27,17 @@ public class BorrowerTest {
     }
 
     @Test
+    public void borrow_can_borrow_book() {
+        borrower.borrowBook(book);
+        assertEquals(1, borrower.countBooksBorrowed());
+    }
+
+
+    @Test
     public void borrower_takes_book_from_library() {
         library.addBook(book);
-        rentedBook = library.bookLeavesLibrary();
-        borrower.takesBookFromLibrary(rentedBook);
+        borrower.borrowerTakesBookFromLibrary(library);
+        assertEquals(0, library.stockCount());
         assertEquals(1, borrower.countBooksBorrowed());
     }
 }
